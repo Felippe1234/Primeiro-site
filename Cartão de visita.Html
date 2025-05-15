@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meu Portfólio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #39FF14;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      border: 4px solid #39FF14;
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    .foto-perfil {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #39FF14;
+      margin: 20px auto;
+      display: block;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+
+    .caixa {
+      border: 2px solid #39FF14;
+      border-radius: 10px;
+      padding: 15px;
+      margin: 20px 0;
+    }
+
+    .caixa ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .caixa ul li {
+      padding: 8px 0;
+      border-bottom: 1px solid #39FF14;
+    }
+
+    .contato p {
+      margin: 10px 0;
+    }
+
+    /* Responsivo */
+    @media (max-width: 600px) {
+      .foto-perfil {
+        width: 100px;
+        height: 100px;
+      }
+
+      h1 {
+        font-size: 1.4em;
+        padding: 5px;
+      }
+
+      section {
+        padding: 0 10px;
+      }
+
+      .caixa {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Meu Portfólio</h1>
+    <img src="oi.png" alt="Foto de perfil" class="foto-perfil" />
+  </header>
+
+  <section>
+    <h2>Sobre Mim</h2>
+    <p>Sou um desenvolvedor web iniciante em front-end e adoraria pegar trabalhos reais para praticar e crescer como profissional.</p>
+  </section>
+
+  <section class="caixa">
+    <h2>Meus Projetos</h2>
+    <ul>
+      <li>Tabelas de Preço</li>
+      <li>Portfólios como este</li>
+    </ul>
+  </section>
+
+  <section class="caixa contato">
+    <h2>Contatos</h2>
+    <p><strong>E-mail:</strong> felippedev@gmail.com</p>
+    <p><strong>Telefone:</strong> (43) 98868-4509</p>
+  </section>
+</body>
+</html>
